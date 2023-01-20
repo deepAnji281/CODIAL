@@ -11,6 +11,7 @@ app.use('/',require('./routes/index'));
 app.use('/',require('./routes/user'));
 app.set('view engine','ejs');
 app.set('views','./view')
+const db=require('./cofig/mongoose');
 
 app.listen(port,(err)=>{
     if(err)
