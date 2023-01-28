@@ -39,6 +39,6 @@ module.exports.create=function(req,res)
 
 module.exports.session=function(req,res)
 {
-
+  return res.redirect('/');
 }
 
